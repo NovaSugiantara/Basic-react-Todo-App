@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
 .App-logo {
@@ -36,3 +38,7 @@
     transform: rotate(360deg);
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
